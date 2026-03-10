@@ -44,13 +44,10 @@ cp -r skill-to-build-skill/skill-builder ~/.claude/skills/
 
 ## Usage
 
-Once installed, just ask Claude to help you build a skill. Any of these will work:
-
-- "Help me build a skill"
-- "I want to create a skill"
-- "Help me teach Claude to do X"
-- "I want Claude to automate my weekly reports"
-- "Make a skill for generating meeting notes"
+Once installed, use slash command to execute the skill
+```
+/skill-builder
+```
 
 Claude will take it from there — asking questions, guiding you through each phase, and generating the finished skill file when you're done.
 
