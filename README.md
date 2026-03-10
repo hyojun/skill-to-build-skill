@@ -33,13 +33,17 @@ Place the `skill-builder` folder in your Claude Code skills directory:
 git clone https://github.com/Swingvy/skill-to-build-skill.git
 
 # Copy the skill folder to your project
-cp -r skill-to-build-skill/skill-builder /path/to/your/project/.claude/skills/
+cp -r skill-to-build-skill/skill-builder ~/.claude/skills/
 ```
 
-Or install it globally:
+Or install it for a project:
 
 ```bash
-cp -r skill-to-build-skill/skill-builder ~/.claude/skills/
+# Clone the repo
+git clone https://github.com/Swingvy/skill-to-build-skill.git
+
+# Copy the skill folder to your project
+cp -r skill-to-build-skill/skill-builder /path/to/your/project/.claude/skills/
 ```
 
 ## Usage
